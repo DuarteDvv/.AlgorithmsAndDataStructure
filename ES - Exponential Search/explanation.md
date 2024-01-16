@@ -8,6 +8,8 @@ how work:
 2. Double the size of the range iteratively until an element greater than the target is found or the end of the array is reached.
 3. Perform a binary search within the identified range for the target element.
 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCIyXSbFwvjXFaEnooPhp8q5YG1oWTnojmRg&usqp=CAU)
+
 Applications:
 Exponential Search is commonly used in scenarios where the data is sorted, and the size of the dataset is unknown. Here are three applications:
 
