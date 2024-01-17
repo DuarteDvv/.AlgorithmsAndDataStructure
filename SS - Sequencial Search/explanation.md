@@ -14,3 +14,7 @@ Requires little memory, as the only extra memory needed for the algorithm is for
 
 Inefficient runtime.<br>
 The worst-case scenario has a time complexity of O(n), where n is the number of elements in the array.
+
+
+
+![image](https://github.com/DuarteDvv/.AlgorithmsAndDataStructure/assets/136333571/322b35fb-6866-4760-9de5-86aea68ec492)
