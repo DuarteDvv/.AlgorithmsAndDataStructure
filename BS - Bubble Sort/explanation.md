@@ -6,13 +6,13 @@ The algorithm starts at the initial position of the array and compares the curre
 
 🎓 Advantages
 
-Easy to understand and implement.
+Easy to understand and implement.<br>
 Requires little memory, as the only extra memory needed for the algorithm is for the control variables.
 
 
 🔥 Disadvantages
 
-Inefficient runtime.
+Inefficient runtime.<br>
 The number of element swaps in the worst case is approximately O(n^2), where n is the number of elements in the array.
 
 ![image](https://github.com/DuarteDvv/.AlgorithmsAndDataStructure/assets/136333571/84173ff4-aa15-41ad-882b-86a3f7f41d5f)
