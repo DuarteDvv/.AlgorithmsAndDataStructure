@@ -19,8 +19,5 @@ Exponential Search is commonly used in scenarios where the data is sorted, and t
 2. **Finding an Element in a Sorted List:**
    - In scenarios where you have a large sorted list, such as an address book, Exponential Search can quickly locate a specific entry.
 
-3. **Locating Elements in an Ordered Array:**
-   - When dealing with ordered datasets, like phone numbers in ascending order, Exponential Search provides an efficient way to find a particular element.
-
 Remember, the effectiveness of Exponential Search lies in its ability to quickly narrow down the search space, making it particularly useful for large sorted datasets.
 
