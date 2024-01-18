@@ -1,29 +1,26 @@
-# Binary Search Algorithm
+🎯 Objective:<br>
 
-The binary search algorithm is an efficient and fast searching algorithm. It works by searching for a target value (t) in a sorted array (arr).
+Binary Search is a highly efficient searching algorithm that works on a sorted array. It utilizes the divide-and-conquer strategy to quickly locate a target element within the array.
 
-Here's how the BS algorithm works:
+🚀 How it Works:<br>
 
-1. First, define two variables, "left" and "right", which represent the limits of the search in the array. Initially, "left" points to the first element of the array and "right" to the last.
+Determine the middle element of the array.
+Compare the middle element with the target element.
+If they match, the search is successful, and the index is returned.
+If the target element is less than the middle element, repeat the search on the left half of the array.
+If the target element is greater than the middle element, repeat the search on the right half of the array.
+Continue dividing the array and repeating the process until the target element is found or the search range becomes empty.<br>
 
-2. While "left" <= "right", perform the following:
+🎓 Advantages:
 
-   a. Calculate the "middle" index as the average of "left" and "right".
+Highly efficient on sorted arrays.<br>
+Reduces the search range by half in each iteration.<br>
 
-   b. If the element at the "middle" index of the array is equal to the target value, the search ended successfully. Return the "middle" index.
+🔥 Disadvantages:
 
-   c. If the element at the "middle" index is less than the target value, update "left" to "middle" + 1. In this case, the search will continue in the subarray to the right of "middle".
+Requires a sorted array as input.<br>
+Inefficient for unsorted arrays.<br>
+May not find all occurrences of the target element in duplicate scenarios.
 
-   d. If the element at the "middle" index is greater than the target value, update "right" to "middle" - 1. In this case, the search will continue in the subarray to the left of "middle".
 
-3. If the search ends without finding the target value, return -1. This indicates that the target value is not present in the array.
-
-   
 ![image](https://github.com/DuarteDvv/Algorithms/assets/136333571/7ccf6f29-09ad-4329-958c-d4dd13df7c89)
-
-Applications:
-
-- Searching for Words in Dictionaries.
-- Searching for Files in File Systems.
-- Image Classification.
-- Implementation of Maps, Sets, and Other Data Structure Elements in Python and Other Programming Languages.
