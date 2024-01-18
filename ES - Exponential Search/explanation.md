@@ -1,23 +1,27 @@
-# Exponential Search Algorithm
+🎯 Objective:<br>
 
-Exponential Search, also known as Binary Exponential Search, is a searching algorithm designed for sorted arrays. It is an improvement over binary search and works by finding a range where the target element may exist and then performing a binary search within that range.
+The Exponential Search algorithm is a searching technique that combines elements of binary search and sequential search. It is particularly useful for unbounded arrays or when the size of the array is unknown. Exponential Search works by narrowing down the search range exponentially until the desired element is found or the end of the array is reached.
 
-how work:
+🚀 How it Works:<br>
 
-1. Determine an initial range, usually with a size of 1.
-2. Double the size of the range iteratively until an element greater than the target is found or the end of the array is reached.
-3. Perform a binary search within the identified range for the target element.
+Determine a range where the desired element might exist. Initially, set the range as [1, min(2^k, n)], where n is the size of the array.
+Perform a binary search within this range.
+If the desired element is found, return its index.
+If the element is not found, double the range and repeat steps 2-3 until the range exceeds the array size.
+Once the range exceeds the array size, switch to a sequential search within the last valid range.<br>
 
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCIyXSbFwvjXFaEnooPhp8q5YG1oWTnojmRg&usqp=CAU)
+🎓 Advantages:
 
-Applications:
-Exponential Search is commonly used in scenarios where the data is sorted, and the size of the dataset is unknown. Here are three applications:
+Efficient for unbounded arrays or situations where the array size is unknown.
+Combines the efficiency of binary search and the simplicity of sequential search.<br>
 
-1. **Searching in Databases:**
-   - Exponential Search is efficient when searching for a specific record in a large database, especially if the database is sorted.
+🔥 Disadvantages:
 
-2. **Finding an Element in a Sorted List:**
-   - In scenarios where you have a large sorted list, such as an address book, Exponential Search can quickly locate a specific entry.
+Inefficient for small arrays.
+Requires extra space for control variables.
+Worst-case time complexity is O(log n), where n is the number of elements, but may involve multiple passes.
 
 Remember, the effectiveness of Exponential Search lies in its ability to quickly narrow down the search space, making it particularly useful for large sorted datasets.
 
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCIyXSbFwvjXFaEnooPhp8q5YG1oWTnojmRg&usqp=CAU)
