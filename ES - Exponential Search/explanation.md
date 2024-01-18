@@ -12,13 +12,13 @@ Once the range exceeds the array size, switch to a sequential search within the 
 
 🎓 Advantages:
 
-Efficient for unbounded arrays or situations where the array size is unknown.
+Efficient for unbounded arrays or situations where the array size is unknown.<br>
 Combines the efficiency of binary search and the simplicity of sequential search.<br>
 
 🔥 Disadvantages:
 
-Inefficient for small arrays.
-Requires extra space for control variables.
+Inefficient for small arrays.<br>
+Requires extra space for control variables.<br>
 Worst-case time complexity is O(log n), where n is the number of elements, but may involve multiple passes.
 
 Remember, the effectiveness of Exponential Search lies in its ability to quickly narrow down the search space, making it particularly useful for large sorted datasets.
