@@ -1,7 +1,7 @@
-public class Heap<T extends Comparable<T>> {
+public class HeapMin<T extends Comparable<T>> {
     private ArrayList<T> heap;
 
-    public Heap() {
+    public HeapMin() {
         heap = new ArrayList<>();
     }
 
