@@ -27,3 +27,16 @@
     <p>
         The heap implementation shown in the example above uses an array-based representation. The parent and child nodes are indexed by simple formulas, simplifying heap manipulation. The time complexity for basic operations (inserting and extracting the minimum element) is maintained at O(log n), where n is the number of elements in the heap.
     </p>
+
+
+
+![image](https://github.com/DuarteDvv/.AlgorithmsAndDataStructure/assets/136333571/c5df8c32-5ffb-4dfb-94b3-7516279edb55)
+
+
+
+
+
+
+    
+
+
