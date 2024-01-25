@@ -4,10 +4,10 @@ The Insertion Sort algorithm is a simple sorting technique that builds the final
 
 🚀 How it Works:<br>
 
-Start with the second element (index 1) and consider it as the key to be inserted into the sorted subarray.
-Compare the key with the elements in the sorted subarray, moving larger elements to the right to make space for the key.
-Insert the key into the correct position within the sorted subarray.
-Repeat steps 1-3 for the remaining unsorted elements until the entire array is sorted.<br>
+- Start with the second element (index 1) and consider it as the key to be inserted into the sorted subarray.
+- Compare the key with the elements in the sorted subarray, moving larger elements to the right to make space for the key.
+- Insert the key into the correct position within the sorted subarray.
+- Repeat steps 1-3 for the remaining unsorted elements until the entire array is sorted.<br>
 
 🎓 Advantages:<br>
 
