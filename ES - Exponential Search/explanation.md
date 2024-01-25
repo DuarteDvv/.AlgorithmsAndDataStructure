@@ -4,11 +4,12 @@ The Exponential Search algorithm is a searching technique that combines elements
 
 🚀 How it Works:<br>
 
-Determine a range where the desired element might exist. Initially, set the range as [1, min(2^k, n)], where n is the size of the array.
-Perform a binary search within this range.
-If the desired element is found, return its index.
-If the element is not found, double the range and repeat steps 2-3 until the range exceeds the array size.
-Once the range exceeds the array size, switch to a sequential search within the last valid range.<br>
+- Determine a range where the desired element might exist.
+- Initially, set the range as [1, min(2^k, n)], where n is the size of the array.
+- Perform a binary search within this range.
+- If the desired element is found, return its index.
+- If the element is not found, double the range and repeat steps 2-3 until the range exceeds the array size.
+- Once the range exceeds the array size, switch to a sequential search within the last valid range.<br>
 
 🎓 Advantages:
 
