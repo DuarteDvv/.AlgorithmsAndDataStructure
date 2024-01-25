@@ -1,33 +1,22 @@
-<!DOCTYPE html>
-<html>
+🎯 Objective:
 
-<body>
-    <h1>Heap Data Structure</h1>
-    <p>
-        A heap is a tree-like data structure that satisfies the heap property. It can be divided into two main types: min heap and max heap. In a min heap, the value of the parent is always less than or equal to the value of the children. In a max heap, the value of the parent is always greater than or equal to the value of the children.
-    </p>
-    <p>
-        The heap property is maintained by the "heapify" process. This means that for any node present in the heap, its value is always less than or equal to the value of its children. This is useful for various operations, such as finding the minimum element in a min heap or inserting a new element.
-    </p>
-    <h2>Advantages of Heap</h2>
-    <ul>
-        <li>Efficient for determining the minimum or maximum element (for min heap and max heap, respectively).</li>
-        <li>Efficient for inserting elements (insertion into a heap can be done in O(log n) time).</li>
-        <li>Allows for efficient implementation of algorithms such as HeapSort, Dijkstra, and Prim.</li>
-    </ul>
-    <h2>Disadvantages of Heap</h2>
-    <ul>
-        <li>Complex removal of arbitrary elements.</li>
-        <li>Complex dynamic memory allocation for heap nodes.</li>
-        <li>Data organization in the heap may consume extra space.</li>
-    </ul>
-    <p>
-        To address some of these disadvantages, heap implementations sometimes include a linked representation. In this case, each node in the heap stores a reference to the left child and, optionally, to the right sibling. This representation allows for the insertion and removal of elements in O(log n) time, in addition to providing direct access to the elements stored in the heap.
-    </p>
-    <p>
-        The heap implementation shown in the example above uses an array-based representation. The parent and child nodes are indexed by simple formulas, simplifying heap manipulation. The time complexity for basic operations (inserting and extracting the minimum element) is maintained at O(log n), where n is the number of elements in the heap.
-    </p>
+depends on the context.
 
+🚀 How it Works:
+
+- The Heap data structure is a complete binary tree that satisfies the heap property. In a max heap, for any given node i, the value of i is greater than or equal to the values of its children (i.e., the left child i2 + 1 and the right child i2 + 2). In a min heap, the value of i is less than or equal to the values of its children.
+
+- The heap is commonly represented as an array, where the parent-child relationship is derived from the array indices. For any element at index i, the parent is at index (i-1)/2, and the children are at indices 2i + 1 and 2i + 2.
+
+- Heap operations include insertion and deletion of elements. To insert an element, it is added to the end of the array and then "bubbled up" to its correct position. To delete an element, it is replaced by the last element in the array, and then "bubbled down" to its correct position.
+
+🎓 Advantages
+
+Heaps provide efficient insertion and deletion operations, as elements are typically added to or removed from the end of the array.
+
+🔥 Disadvantages
+
+Heaps do not support efficient search operations for arbitrary elements, as elements may not be stored contiguously in memory.
 
 
 ![image](https://github.com/DuarteDvv/.AlgorithmsAndDataStructure/assets/136333571/c5df8c32-5ffb-4dfb-94b3-7516279edb55)
