@@ -4,11 +4,11 @@ Breadth-First Search (BFS) is a graph traversal algorithm that explores all the 
 
 🚀 How it Works:
 
-Start with a source vertex and enqueue it into a queue.
-While the queue is not empty:
-Dequeue a vertex from the queue and process it.
-Enqueue all unvisited neighbors of the processed vertex.
-Repeat until all vertices are visited or the desired condition is met.<br>
+- Start with a source vertex and enqueue it into a queue.
+- While the queue is not empty:
+- Dequeue a vertex from the queue and process it.
+- Enqueue all unvisited neighbors of the processed vertex.
+- Repeat until all vertices are visited or the desired condition is met.<br>
 
 🎓 Advantages:
 
