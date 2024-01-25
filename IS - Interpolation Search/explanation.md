@@ -24,3 +24,7 @@ Efficient runtime in the average case. The average-case scenario has a time comp
 🔥 Disadvantages
 
 Requires the array to be sorted. Less efficient than binary search in the worst-case scenario, which has a time complexity of O(n). The estimation of the position of the desired element may not be accurate if the values in the array are not uniformly distributed, leading to a less efficient runtime.
+
+![image](https://github.com/DuarteDvv/.AlgorithmsAndDataStructure/assets/136333571/3305b43b-b557-4b82-ad81-b8dcc3e9594c)
+
+
