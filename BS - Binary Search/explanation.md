@@ -4,12 +4,12 @@ Binary Search is a highly efficient searching algorithm that works on a sorted a
 
 🚀 How it Works:<br>
 
-Determine the middle element of the array.
-Compare the middle element with the target element.
-If they match, the search is successful, and the index is returned.
-If the target element is less than the middle element, repeat the search on the left half of the array.
-If the target element is greater than the middle element, repeat the search on the right half of the array.
-Continue dividing the array and repeating the process until the target element is found or the search range becomes empty.<br>
+- Determine the middle element of the array.
+- Compare the middle element with the target element.
+- If they match, the search is successful, and the index is returned.
+- If the target element is less than the middle element, repeat the search on the left half of the array.
+- If the target element is greater than the middle element, repeat the search on the right half of the array.
+- Continue dividing the array and repeating the process until the target element is found or the search range becomes empty.<br>
 
 🎓 Advantages:
 
