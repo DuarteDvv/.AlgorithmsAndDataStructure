@@ -1,6 +1,6 @@
 🎯 Objective:
 
-depends on the context.
+Depends on the context.
 
 🚀 How it Works:
 
