@@ -1,6 +1,6 @@
 🎯 Objective:
 
-Depends on the context.
+The objective of a heap data structure is to provide fast access to the smallest or largest element in a collection. Heaps are often used in priority queues, sorting algorithms, graph algorithms, median maintenance, and resource allocation.
 
 🚀 How it Works:
 
