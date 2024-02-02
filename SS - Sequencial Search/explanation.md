@@ -9,16 +9,14 @@ The Sequential Search algorithm is a simple searching algorithm that scans throu
 
 Lets see together:
 ```cpp
-array { 6, 4, 10, 7, 15}
+Suppose we have an array {6, 4, 10, 7, 15} and a target value of 7. Here is an example of sequential search:
 
-target = 7
-
-1. Call the Sequencial search with the parameters ({ 6, 4, 10, 7, 15 }, 5, 7);
-2. Verify the index 0 of array and compare the value with the target, butis different,then continue;
-3. Verify the index 1 of array and compare the value with the target, but is different,then continue;
-4. Verify the index 2 of array and compare the value with the target, but is different,then continue;
-5. Verify the index 3 of array and compare the value with the target, gatcha!;
-6. return the value or a boolean;
+1. Call the sequential search with the parameters ({ 6, 4, 10, 7, 15 }, 5, 7);
+2. Verify the index 0 of the array and compare the value with the target. In this case, the value 6 is different from 7, so continue;
+3. Verify the index 1 of the array and compare the value with the target. In this case, the value 4 is different from 7, so continue;
+4. Verify the index 2 of the array and compare the value with the target. In this case, the value 10 is different from 7, so continue;
+5. Verify the index 3 of the array and compare the value with the target. In this case, the value 7 is the same as the target, so we found the target!;
+6. Return the value or a boolean.
 
 ```
    
