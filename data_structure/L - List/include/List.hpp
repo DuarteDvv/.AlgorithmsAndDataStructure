@@ -30,6 +30,7 @@ template<typename T>
 class ArrayList : List<T>
 {
     private:
+        //search O(n)
         T objects[MAXTAM];
 
     public:
