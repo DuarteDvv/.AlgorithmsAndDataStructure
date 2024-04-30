@@ -88,11 +88,13 @@ void ArrayList<T>::insertPos(T obj, int pos){
 
 }
 
+//O(1)
 template<typename T>
 void ArrayList<T>::clear(){
     size = 0;
 }
 
+//O(n)
 template<typename T>
 void ArrayList<T>::print(){
 
