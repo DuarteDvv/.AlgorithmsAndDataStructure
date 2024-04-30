@@ -14,7 +14,6 @@ T ArrayList<T>::removeBegin(){
     if (size == 0) throw "ERROR: Empty";
     T aux = objects[0];
     for(int i = 0; i < size;i++) objects[i] = objects[i+1];
-
     size--;
     return aux;
 } 
